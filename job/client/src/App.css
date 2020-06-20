@@ -1,0 +1,64 @@
+body {
+  background-color: #666666;
+  /* width: 100vw; */
+  /* margin: 0px; */
+  /* margin: 20px 40px; */
+}
+
+.job {
+  /* transition: ease-in .5s; */
+  width: 80%;
+  margin:auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 20px 10px;
+  align-items: center;
+} 
+ 
+.job:hover {
+  cursor: pointer;
+  color: #29c550;
+  transition: all .5s;
+  transform: scale(1.1);
+}
+
+.detail-logo {
+  height: 30px;
+  float: right;
+}
+
+.job-company {
+  padding: 0 30px;
+}
+
+.job-dialog {
+  padding: 30px 50px;
+}
+
+.welcome-description {
+  width: 80%;
+  margin: 20px 0;
+  padding: 20px 10px;
+}
+
+.welcome-item {
+  opacity: 0;
+  transition: .5s ease all;
+}
+
+.flex-align-mid {
+  display: flex;
+  align-items: center;
+}
+
+.job-title-location {
+  margin-left: 20px;
+}
+
+.dropdown-menu {
+  height: 300px;
+  width: 350px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
